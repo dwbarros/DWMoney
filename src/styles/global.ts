@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 
         --red: #e52e4d;
         --blue: #5429cc;
+        --green: #33cc95;
         --blue-light: #6933ff;
 
         --text-title: #363f5f;
@@ -14,9 +15,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     * {
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
 
     html {
@@ -48,7 +49,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     [disabled] {
-        opacity: 0.6;
         cursor: not-allowed;
+        opacity: 0.6;
     }
 `
