@@ -13,6 +13,18 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    .logo {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            margin-left: 1rem;
+        }
+    }
+
     button {
         color: var(--shape);
         background: var(--blue-light);
